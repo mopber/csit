@@ -1,0 +1,161 @@
+.itim{
+    font-family: 'Itim', cursive;
+}
+
+body{
+    background-color: #1D5B79;
+}
+
+.body{
+    display: block;
+    padding: 10px;
+    text-align : left;
+    position: static;
+    background-color: #c5ecf8;
+    color: #413d39;
+    max-width: auto;
+    background-size: cover;
+}
+
+.main {
+    display: block;
+    padding: 10px;
+    text-align : center;
+    border-radius: 7%;
+    position: static;
+    padding-top: 0px;
+}
+
+.main a{
+    text-decoration: none;
+    padding: 5px 60px 0px 50px;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.25em;
+    height: 3em;
+    line-height: 4em; 
+    margin: 5%;
+    color: #F3AA60;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin: 1.5em 0 2em 0;
+    color: #c67e36; 
+   }
+
+.body > img{
+    display: block;
+    width: 230px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    clear: both;
+}
+
+.container{ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container-img{ 
+    width: 100%;
+  }
+
+.container-img img{
+    width: 100%;
+  height: auto;
+}
+
+.column {
+    flex: 1; 
+    padding: 20px;
+    border: 1px ;
+    padding-right: 30px;
+}
+
+.inner-column { /* ข้อมูลในคอลลัม */
+    flex: 1;
+    padding: 1px;
+    margin-left: 50px;
+    font-size: 15px; 
+}
+
+.body a{
+    text-decoration: none;
+}
+
+.tales{
+    display: block;
+    padding: 5px;
+    text-align : left;
+    position: static;
+    color: #F3AA60;
+}
+
+@media (min-width:1201px) and (max-width:1600px) {
+    .main ul {
+        display: inline-block;
+        font-size: 1em;
+        border-radius: 0.35em;
+        box-shadow: inset 0px 0px 1px 1px #468B97;
+        padding: 0 1.5em 0 1.5em;
+    }
+    
+    .header{
+        display: block;
+        padding: 10px;
+        text-align : center;
+        position: static;
+        background-color: #6eb1c5;
+        color: #feefdf;
+    }
+    
+    .body a{
+        text-decoration: none;
+    }
+  }
+
+  @media (min-width:319px) and (max-width:1200px) {
+    .main {
+        padding-top: 210px;
+    }
+    
+    .main ul {
+        display: flex;
+        border-radius: 0.35em;
+        box-shadow: inset 0px 0px 1px 1px #468B97;
+        padding: 0 1.5em  1em;
+        font-size: 16px; 
+    }
+    
+    .header{
+        display:inline;
+        padding: 3px;
+        text-align : center;
+        position: fixed;
+        background-color: #6eb1c5;
+        color: #feefdf;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .body > img{
+        display: block;
+        width: 115px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        clear: both;
+    }
+
+    .inner-column { /* ข้อมูลในคอลลัม */
+        flex: 1;
+        padding: 5px;
+        margin-left: 50px;
+        font-size: 12px; 
+    }
+}
